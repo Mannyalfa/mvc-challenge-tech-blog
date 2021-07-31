@@ -4,7 +4,6 @@ const withAuth = require('../../utils/auth');
 
 // GET /api/users
 router.get('/', (req, res) => {
-    // access our user model and run .findAll() method -- similar to SELECT * FROM users;
     User.findAll({
         attributes: { exclude: ['[password'] }
     })
