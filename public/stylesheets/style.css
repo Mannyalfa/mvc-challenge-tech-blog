@@ -8,13 +8,17 @@
  
   }
 
+main{
+background-color: lightgrey;
+
+}
+
 body, html, input, textarea {
     height: 100%;
     padding: 0;
     margin: 0;
     font-family: "Newsreader", sans-serif;
-    color: #333;
-}
+  }
 
 a {
     text-decoration: none;
