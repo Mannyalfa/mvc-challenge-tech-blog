@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #6f1e1e;
-    --primary-hover: #343db5;
+    --primary-color: #2f0999;
+    --primary-hover: #777992;
 }
 
 * {
@@ -42,9 +42,8 @@ a:hover {
 
 .blog-title {
     color: var(--primary-hover);
-    font-size: 25px;
-    margin: 25px; 
-    padding: 10px; 
+    font-size: 35px;
+    margin: 15px; 
 }
 
 .create-btn {
@@ -150,7 +149,7 @@ main {
 }
 
 .delete-post-btn {
-    background-color: #d41414;
+    background-color: #db0d0d;
 }
   
   .delete-post-btn:hover {
