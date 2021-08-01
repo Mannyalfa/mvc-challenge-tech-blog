@@ -5,8 +5,7 @@
 
 * {
     box-sizing: border-box;
- 
-  }
+}
 
 main{
 background-color: lightgrey;
@@ -17,15 +16,16 @@ body, html, input, textarea {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Newsreader", sans-serif;
-  }
+    font-family: "Arial";
+    background-color: lightgrey;
+}
 
 a {
     text-decoration: none;
     color: var(--primary-color);
     font-weight: bold;
     transition: color .1s;
-    font-family: "Newsreader", sans-serif;
+    font-family: "Arial";
 }
 
 .homepage {
@@ -153,7 +153,7 @@ main {
 }
   
   .delete-post-btn:hover {
-    background-color: #ff643d;
+    background-color: #d39889;
 }
 
 .post {
