@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #2f0999;
+    --primary-color: #270094;
     --primary-hover: #777992;
 }
 
@@ -80,7 +80,7 @@ button:hover{
 textarea, input {
     padding: .5%;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
 }
 
 textarea:focus, input:focus {
@@ -151,8 +151,8 @@ main {
 .delete-post-btn {
     background-color: #db0d0d;
 }
-  
-  .delete-post-btn:hover {
+
+.delete-post-btn:hover {
     background-color: #d39889;
 }
 
